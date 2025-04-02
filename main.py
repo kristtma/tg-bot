@@ -9,7 +9,6 @@ def main_menu():
     btn1 = types.KeyboardButton('📊 Отчет')
     btn2 = types.KeyboardButton('💸 Ввод трат')
     btn3 = types.KeyboardButton('💰 Ввод дохода')
-    btn4 = types.KeyboardButton('ААбб')
     markup.add(btn1, btn2, btn3)
     return markup
 
