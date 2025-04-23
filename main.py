@@ -8,7 +8,7 @@ def main_menu():
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     btn1 = types.KeyboardButton('📊 Отчет')
     btn2 = types.KeyboardButton('💸 Ввод трат')
-    btn3 = types.KeyboardButton('💰 Ввод дохода')
+    btn3 = types.KeyboardButton('💰 Ввод доходов')
     markup.add(btn1, btn2, btn3)
     return markup
 
